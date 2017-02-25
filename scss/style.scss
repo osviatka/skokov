@@ -1,0 +1,25 @@
+/**Fonts**/
+@import 'includes/_fonts.scss';
+
+/**reset**/
+@import 'includes/_reset.scss';
+/**Components**/
+@import 'includes/_buttons.scss';
+@import 'includes/_colors.scss';
+@import "includes/footer.scss";
+@import "includes/_header.scss";
+@import 'includes/_images.scss';
+@import 'includes/_indents.scss';
+@import 'includes/_banner.scss';
+@import 'includes/_single-post.scss';
+@import 'includes/_typography.scss';
+
+
+body{
+  font-family: 'gothic';
+}
+.wrapper{
+  margin: 15px;
+  background: #f6f6f6;
+  min-height: calc(100vh - 30px);
+}

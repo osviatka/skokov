@@ -1,0 +1,98 @@
+
+
+/*-------------------------------------MARGIN---------------------------------------*/
+.text-margin-vertical-sm{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.text-margin-vertical-md{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-margin-vertical-sm-md{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.text-margin-vertical-lg{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*-------------------------------------top---------------------------------------*/
+.text-margin-top-xs{
+  margin-top: 15px;
+}
+.text-margin-top-sm{
+  margin-top: 30px;
+}
+.text-margin-top-md{
+  margin-top: 50px;
+}
+/*-------------------------------------bottom---------------------------------------*/
+.text-margin-bottom-xs{
+  margin-bottom: 10px;
+}
+.text-margin-bottom-sm{
+  margin-bottom: 15px;
+}
+.text-margin-bottom-md{
+  margin-bottom: 30px;
+}
+.text-margin-bottom-lg{
+  margin-bottom: 50px;
+}
+.text-margin-bottom-xxxl {
+  margin-bottom: 150px;
+}
+/*-------------------------------------left---------------------------------------*/
+.margin-left-sm{
+  margin-left: 55px;
+}
+.text-margin-left{
+  margin-left: 70px;
+}
+/*-------------------------------------PADDING---------------------------------------*/
+/*.about-pre-footer{
+  padding-bottom: 20vh;
+}
+*/
+.header-padding-xs{
+  padding-top: 10px;
+}
+.header-padding-sm {
+  padding-top: 20px;
+}
+
+/*section{
+  padding: 3vh 0;
+}*/
+/*-------------------------------------flex---------------------------------------*/
+.flex {
+  display:flex;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-justify-between{
+  justify-content: space-between;
+}
+.flex-justify-around{
+  justify-content: space-around;
+}
+.flex-justify-start{
+  justify-content: flex-start;
+}
+.flex-justify-end {
+  justify-content: flex-end;
+}
+.flex-column{
+  flex-direction: column;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row-reverse {
+  flex-direction:row-reverse;
+}

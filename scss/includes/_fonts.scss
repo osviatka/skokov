@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'gothic';
+  src: url('../fonts/gothic.eot');
+  src: local('gothic'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Code Light';
+  src: url('../fonts/Code-Light.eot');
+  src: url('../fonts/Code-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Code-Light.woff2') format('woff2'),
+  url('../fonts/Code-Light.woff') format('woff'),
+  url('../fonts/Code-Light.svg#Code-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FD;
+}
+$fsize-xxs: 12px;
+$fsize-xs: 13px;
+
+$fsize-sm: 14px;
+$fsize-md: 16px;
+$fsize-lg: 20px;
+$fsize-xl: 30px;
+$fsize-xxl: 60px;
+$fsize-xxxl: 72px;
+
+$fweight-xs: 600;
+$fweight-sm: 700;
+$fweight-md: 800;
+
+/*-------------------------------------line-height--------------------------------------*/
+.text-line-height-xs{
+  line-height: 24px;
+}
+.text-line-height-sm{
+  line-height: 28px;
+}
+.text-line-height-md{
+  line-height: 30px;
+}
+.text-line-height-lg{
+  line-height: 36px;
+}
+/*-------------------------------------Open Sans---------------------------------------*/
+.text-xs-opensans{
+  font: 700 $fsize-xxs "Open Sans";
+  line-height: 18px;
+}
+.text-sm-opensans-lh-sm{
+  font: 400 14px "Open Sans";
+  line-height: 22px;
+}
+.text-sm-opensans{
+  font: 400 14px "Open Sans";
+  line-height: 34px;
+}
+.text-md-opensans{
+  font: 400 16px "Open Sans";
+  line-height: 22px;
+}
+.text-lg-opensans{
+  font: 400 18px "Open Sans";
+  line-height: 22px;
+}
+.text-xl-opensans{
+  font: 700 30px "Open Sans";
+  line-height: 22px;
+}
+.text-xl-opensans-light{
+  font: 400 30px "Open Sans";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.text-xl-opensans-light-lh-n{
+  font: 400 30px "Open Sans";
+  color: #FFFFFF;
+}
+.text-xxxl-opensans{
+  font: 300 $fsize-xxxl "Open Sans";
+  line-height: 72px;
+}
+/*-------------------------------------Raleway---------------------------------------*/
+
+.text-xxs-raleway{
+  font: 500 $fsize-xxs "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-sm-raleway{
+  font: 400 $fsize-sm "Raleway";
+  color: #fff;
+  line-height: 22px;
+}
+.text-sm-raleway-bold{
+  font: 700 $fsize-sm "Raleway";
+  color: #fff;
+  line-height: 22px;
+}
+.text-md-raleway{
+  font: 700 $fsize-md "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-md-raleway-color{
+  font: 700 $fsize-md "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.text-lg-raleway{
+  font: 700 $fsize-lg "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-xl-raleway{
+  font: 400 $fsize-xl "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-xxl-raleway{
+  font: 700 $fsize-xxl "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.text-xxxl-raleway-lh-n{
+  font: 700 $fsize-xxxl "Raleway";
+  color: #FFFFFF;
+}
+.text-xxxl-raleway{
+  font: 700 $fsize-xxxl "Raleway";
+  color: #FFFFFF;
+  line-height: 28px;
+}

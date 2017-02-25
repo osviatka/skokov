@@ -1,0 +1,45 @@
+.btn{
+  height: 60px;
+  padding: 20px 45px;
+  border-radius: 5px;
+  text-align: center;
+  font: 700 14px/22px "Raleway";
+  &-transp{
+    margin: 100px 0;
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    background-color: transparent;
+    transition: .5s;
+    &:hover {
+      color: #ffffff;
+      background-color: #e7434e;
+    }
+  }
+  &-accent{
+    background-color: #e7434e;
+    color: #ffffff;
+    transition: .3s;
+    &:hover {
+      color: #1c1c1c;
+      background-color: #F6E2E3;
+    }
+  }
+}
+.btn-nav{
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 35px;
+  text-align: center;
+  font: 700 $fsize-md "Raleway";
+  }
+
+/*
+.btn-accent{
+  background-color: $accent-color;
+  color: $base-color;
+  padding: 25px 45px;
+  border-radius: 5px;
+  text-align: center;
+  font: 700 14px/22px "Raleway";
+}
+*/
