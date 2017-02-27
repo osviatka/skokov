@@ -1,53 +1,22 @@
 .footer{
-  position: relative;
-  display: block;
-  background-color: #3f3f44;
-  min-height: 120px;
-  padding: 60px 0 70px;
+
   h5{
     margin-bottom: 25px;
   }
     form{
 
     input{
-      width: calc(100% - 147px);
-      display: block;
-      float: left;
-      line-height: 42px;
-      border-radius: 5px 0 0 5px;
-      border: none;
-      padding: 0 20px;
+
     }
     .button-text-color{
-      line-height: 42px;
-      padding: 0;
-      width: 147px;
-      text-align: center;
-      border-radius: 0 5px 5px 0;
-      border: none;
-      color: #ffffff;
-      background-color: #e7434e;
+
       &:hover {
-        color: #1c1c1c;
-        background-color: #F6E2E3;
+
       }
     }
   }
-  .f-social{
-    margin-top: 35px;
-    padding-left: 15px;
-    a{
-      display: block;
-      height: 45px;
-      width: 45px;
-      margin-right: 20px;
-      color: #fff;
-      background-color: #717171;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 45px;
-    }
-  }
+
+
 }
 //@media (max-width: 920px) {
 //  right:65%;

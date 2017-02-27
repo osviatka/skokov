@@ -1,23 +1,59 @@
 .single-post{
-  .container{
-    .main{
-      .img-block{
-        width: 61%;
-        height: 0;
-        padding-bottom:33.7%;
-        overflow: hidden;
-        position: relative;
-        img{
-          position: absolute;
-          display: block;
-          min-height:100%;
-          min-width: 100%;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-        }
-      }
-    }
+  width: 61.3%;
+  padding-top: 85px;
+  margin-left: 5%;
 
+   .img-block{
+        img{
+          display: block;
+          width: 100%;
+        }
   }
+}
+.title-block{
+  background: #fff;
+  position: relative;
+  padding: 25px 10px;
+  text-align: right;
+  &before{
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 10%;
+    bottom: 100%;
+  }
+
+.leave-comment{
+
+  .form-block{
+    padding-top:25px;
+    font-size: 0;
+    input{
+
+    }
+    textarea, input{
+
+    }
+    textarea{
+      display: block;
+      width: 100%;
+      min-height:170px;
+      resize: none;
+    }
+  }
+.btn-style{
+  display: block;
+  color: #fff;
+  background: black;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid;
+  padding: 0 13px;
+  line-height: 37px;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+
+}
+}
 }

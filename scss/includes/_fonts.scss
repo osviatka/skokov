@@ -15,12 +15,14 @@
   font-stretch: normal;
   unicode-range: U+0020-00FD;
 }
-$fsize-xxs: 12px;
-$fsize-xs: 13px;
+$fsize-xxs: 8px;
+$fsize-xs: 12px;
+$fsize-xs: 13px;/*----*/
 
-$fsize-sm: 14px;
-$fsize-md: 16px;
-$fsize-lg: 20px;
+$fsize-sm: 15px;
+$fsize-md: 16px; /*----*/
+
+$fsize-lg: 18px;
 $fsize-xl: 30px;
 $fsize-xxl: 60px;
 $fsize-xxxl: 72px;
@@ -42,92 +44,97 @@ $fweight-md: 800;
 .text-line-height-lg{
   line-height: 36px;
 }
-/*-------------------------------------Open Sans---------------------------------------*/
+/*-------------------------------------Gothic---------------------------------------*/
 .text-xs-opensans{
-  font: 700 $fsize-xxs "Open Sans";
+  font: 700 $fsize-xxs "gothic";
   line-height: 18px;
 }
 .text-sm-opensans-lh-sm{
-  font: 400 14px "Open Sans";
+  font: 400 14px "gothic";
   line-height: 22px;
 }
 .text-sm-opensans{
-  font: 400 14px "Open Sans";
+  font: 400 14px "gothic";
   line-height: 34px;
 }
 .text-md-opensans{
-  font: 400 16px "Open Sans";
+  font: 400 16px "gothic";
   line-height: 22px;
 }
 .text-lg-opensans{
-  font: 400 18px "Open Sans";
-  line-height: 22px;
+  font: 400 18px "gothic";
+  line-height: 32px;
 }
 .text-xl-opensans{
-  font: 700 30px "Open Sans";
+  font: 700 30px "gothic";
   line-height: 22px;
 }
 .text-xl-opensans-light{
-  font: 400 30px "Open Sans";
+  font: 400 30px "gothic";
   color: #FFFFFF;
   line-height: 24px;
 }
 .text-xl-opensans-light-lh-n{
-  font: 400 30px "Open Sans";
+  font: 400 30px "gothic";
   color: #FFFFFF;
 }
 .text-xxxl-opensans{
-  font: 300 $fsize-xxxl "Open Sans";
+  font: 300 $fsize-xxxl "gothic";
   line-height: 72px;
 }
-/*-------------------------------------Raleway---------------------------------------*/
+/*-------------------------------------gothic---------------------------------------*/
 
-.text-xxs-raleway{
-  font: 500 $fsize-xxs "Raleway";
+.text-xxs-gothic{
+  font: 500 $fsize-xxs "gothic";
   color: #1c1c1c;
   line-height: 28px;
 }
-.text-sm-raleway{
-  font: 400 $fsize-sm "Raleway";
+.text-xs-gothic{
+  font: 400 $fsize-xs "gothic";
+  color: #fff;
+  line-height: 21px;
+}
+.text-sm-gothic{
+  font: 400 $fsize-sm "gothic";
   color: #fff;
   line-height: 22px;
 }
-.text-sm-raleway-bold{
-  font: 700 $fsize-sm "Raleway";
+.text-sm-gothic-bold{
+  font: 700 $fsize-sm "gothic";
   color: #fff;
   line-height: 22px;
 }
-.text-md-raleway{
-  font: 700 $fsize-md "Raleway";
+.text-md-gothic{
+  font: 700 $fsize-md "gothic";
   color: #1c1c1c;
   line-height: 24px;
 }
-.text-md-raleway-color{
-  font: 700 $fsize-md "Raleway";
+.text-md-gothic-color{
+  font: 700 $fsize-md "gothic";
   color: #FFFFFF;
   line-height: 24px;
 }
-.text-lg-raleway{
-  font: 700 $fsize-lg "Raleway";
-  color: #1c1c1c;
-  line-height: 24px;
+.text-lg-gothic{
+  font: 400 $fsize-lg "gothic";
+  color: #fff;
+  line-height: 34px;
 }
-.text-xl-raleway{
-  font: 400 $fsize-xl "Raleway";
+.text-xl-gothic{
+  font: 400 $fsize-xl "gothic";
   color: #1c1c1c;
   line-height: 28px;
 }
-.text-xxl-raleway{
-  font: 700 $fsize-xxl "Raleway";
+.text-xxl-gothic{
+  font: 700 $fsize-xxl "gothic";
   color: #FFFFFF;
   line-height: 24px;
 }
-.text-xxxl-raleway-lh-n{
-  font: 700 $fsize-xxxl "Raleway";
+.text-xxxl-gothic-lh-n{
+  font: 700 $fsize-xxxl "gothic";
   color: #FFFFFF;
 }
-.text-xxxl-raleway{
-  font: 700 $fsize-xxxl "Raleway";
+.text-xxxl-gothic{
+  font: 700 $fsize-xxxl "gothic";
   color: #FFFFFF;
   line-height: 28px;
 }
