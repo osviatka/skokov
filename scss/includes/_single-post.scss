@@ -1,59 +1,97 @@
-.single-post{
+.single-post {
   width: 61.3%;
   padding-top: 85px;
   margin-left: 5%;
 
-   .img-block{
-        img{
-          display: block;
-          width: 100%;
-        }
-  }
-}
-.title-block{
-  background: #fff;
-  position: relative;
-  padding: 25px 10px;
-  text-align: right;
-  &before{
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 10%;
-    bottom: 100%;
-  }
-
-.leave-comment{
-
-  .form-block{
-    padding-top:25px;
-    font-size: 0;
-    input{
-
-    }
-    textarea, input{
-
-    }
-    textarea{
+  .img-block {
+    img {
       display: block;
       width: 100%;
-      min-height:170px;
+    }
+  }
+
+  .title-block {
+    background: #fff;
+    position: relative;
+    padding: 25px 10px;
+    text-align: right;
+    &before {
+      position: absolute;
+      width: 0;
+      height: 0;
+      right: 10%;
+      bottom: 100%;
+    }
+  }
+  .related-posts {
+    padding: 40px 0;
+    border-bottom: 1px solid #cacaca;
+    .post-list {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 25px;
+      li {
+        width: 32%;
+      }
+    }
+    .post-image {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .post-title {
+      display: block;
+      padding: 10px;
+      color: #000;
+      background-color: #ffea00;
+      font-size: 13px;
+
+    }
+  }
+
+  .leave-comment {
+
+  .form-block {
+    padding-top: 25px;
+    font-size: 0;
+    input {
+      display: inline-block;
+      width: 50%;
+      margin-right: 2%;
+      margin-bottom: 20px;
+      &:nth-child(2n){
+        margin-right: 0;
+      }
+    }
+    textarea, input {
+      color: #424147;
+      border: none;
+      padding: 15.5px 20px;
+      font-size: 15px;
+    }
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 170px;
       resize: none;
     }
   }
-.btn-style{
-  display: block;
-  color: #fff;
-  background: black;
-  font-size: 15px;
-  border: none;
-  border-bottom: 2px solid;
-  padding: 0 13px;
-  line-height: 37px;
-  position: relative;
-  left: 100%;
-  transform: translateX(-100%);
+  }
+  .btn-style {
+    position: relative;
+    left: 100%;
+    display: block;
+    color: #fff;
+    background: black;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid ;
+    padding: 0 13px;
+    line-height: 37px;
+    transform: translate(-100%);
 
-}
-}
+  }
+
+
 }
