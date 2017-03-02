@@ -11,16 +11,85 @@
   }
 
   .title-block {
-    background: #fff;
+    background: #ffeb00;
     position: relative;
     padding: 25px 10px;
     text-align: right;
-    &before {
+    &:before {
       position: absolute;
       width: 0;
       height: 0;
       right: 10%;
       bottom: 100%;
+    }
+    .title{
+      display: block;
+    }
+    .like-button{
+      display: inline-block;
+      position: relative;
+      margin-right:1.5%;
+      vertical-align: middle;
+      &:before{
+        position: absolute;
+        content: '';
+        background: url(../img/heart-icon.png) no-repeat center center;
+        width: 13px;
+        height: 10px;
+        top: 0;
+        left: -20px;
+        bottom: 0;
+        margin:auto;
+    }
+    }
+    .title-list{
+      display: inline-block;
+      vertical-align: middle;
+      li{
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 15px;
+        &:last-child{
+          padding-right: 0;
+        }
+        &:before{
+          content: '\2044';
+        }
+      }
+    }
+  }
+  .text-block{
+
+  }
+  .share-posts{
+    font-size: 0;
+    li{
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 25px;
+      &:first-child{
+        padding-left: 0;
+      }
+    }
+    a{
+      display: block;
+      padding: 0 15px 0 45px;
+      color: #424147;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-color: #ffeb00;
+    }
+    .facebook{
+      background-image: url(../img/facebook1.png);
+    }
+    .google{
+      background-image: url(../img/google-plus.png);
+    }
+    .twitter{
+      background-image: url(../img/twitter.png);
+    }
+    .linkedin{
+      background-image: url(../img/linkedin.png);
     }
   }
   .related-posts {
@@ -78,20 +147,7 @@
     }
   }
   }
-  .btn-style {
-    position: relative;
-    left: 100%;
-    display: block;
-    color: #fff;
-    background: black;
-    font-size: 15px;
-    border: none;
-    border-bottom: 2px solid ;
-    padding: 0 13px;
-    line-height: 37px;
-    transform: translate(-100%);
 
-  }
 
 
 }

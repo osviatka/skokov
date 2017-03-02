@@ -94,6 +94,11 @@ $fweight-md: 800;
   color: #fff;
   line-height: 21px;
 }
+.text-xs-gothic-bl{
+  font: 400 $fsize-xs "gothic";
+  color: #000;
+  line-height: 2px;
+}
 .text-sm-gothic{
   font: 400 $fsize-sm "gothic";
   color: #fff;
@@ -122,7 +127,7 @@ $fweight-md: 800;
 .text-xl-gothic{
   font: 400 $fsize-xl "gothic";
   color: #1c1c1c;
-  line-height: 28px;
+  line-height: 30px;
 }
 .text-xxl-gothic{
   font: 700 $fsize-xxl "gothic";
