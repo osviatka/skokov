@@ -2,7 +2,7 @@
   width: 61.3%;
   padding-top: 85px;
   margin-left: 5%;
-
+  float: left;
   .img-block {
     img {
       display: block;
@@ -62,6 +62,12 @@
 
   }
   .share-posts{
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .share-list{
     font-size: 0;
     li{
       display: inline-block;
@@ -72,15 +78,18 @@
       }
     }
     a{
+      font-size: 18px;
       display: block;
       padding: 0 15px 0 45px;
       color: #424147;
       background-repeat: no-repeat;
       background-position: center left;
       background-color: #ffeb00;
+      line-height: 30px;
     }
     .facebook{
       background-image: url(../img/facebook1.png);
+
     }
     .google{
       background-image: url(../img/google-plus.png);
